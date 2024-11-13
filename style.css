@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+}
+
+/* Box Container for Form */
+.box-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+/* Title and Logo Styling */
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.site-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0073e6;
+    margin-right: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+/* Heading and Tagline */
+h2 {
+    font-size: 1.5rem;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.tagline {
+    font-size: 0.9rem;
+    color: #666666;
+    margin-bottom: 2rem;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #0073e6;
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    padding: 0.8rem;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Forgot Password Styling */
+.forgot-password {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #0073e6;
+    font-size: 0.9rem;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Options Links */
+.options {
+    margin-top: 1rem;
+}
+
+.options a {
+    text-decoration: none;
+    color: #0073e6;
+    font-size: 0.9rem;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+/* Back Button Styling */
+.back-option {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.back-option button {
+    padding: 0.8rem;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.back-option button:hover {
+    background-color: #e0e0e0;
+}
